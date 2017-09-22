@@ -1,6 +1,6 @@
 <template>
-	<div class="myCommunity">
-		尽情期待!Community
+	<div class="Community">
+		<p>尽情期待.....</p>
 	</div>
 </template>
 <script>
@@ -9,14 +9,16 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 	@import "../../common/stylus/global.styl"
-	.myCommunity
+	.Community
 		position:fixed
 		background:#fff
 		overflow:auto
-		top:50px
+		top:86px
 		bottom:46px
 		left:0
 		right:0
-		z-index:911111
+		padding:15px
+		z-index:11
+		background:#fff
 		-webkit-overflow-scrolling:touch
 </style>

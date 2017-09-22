@@ -7,10 +7,10 @@
 			<router-link class="menu-list" tag="div" to="/findmusic/findsheet">
 				<div class="menu-list-div">歌单</div>
 			</router-link>
-			<router-link class="menu-list" tag="div" to="/ccc">
+			<router-link class="menu-list" tag="div" to="/findmusic/broadcast">
 				<div class="menu-list-div">主播电台</div>
 			</router-link>
-			<router-link class="menu-list" tag="div" to="/ddd">
+			<router-link class="menu-list" tag="div" to="/findmusic/rank">
 				<div class="menu-list-div">排行榜</div>
 			</router-link>
 		</div>
@@ -20,10 +20,14 @@
 <script>
 	import findrecommend from '../findrecommend/findrecommend.vue'
 	import findsheet from '../findsheet/findsheet.vue'
+	import broadcast from '../broadcast/broadcast.vue'
+	import rank from '../rank/rank.vue'
 	export default {
 		components: {
 			findrecommend: findrecommend,
-			findsheet: findsheet
+			findsheet: findsheet,
+			broadcast: broadcast,
+			rank: rank
 		}
 	}
 </script>

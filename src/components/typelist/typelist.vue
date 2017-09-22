@@ -48,7 +48,7 @@
 		},
 		methods: {
 			alert1 () {
-				window.open('https://github.com/IFmiss/vue-cloud-music')
+				window.open('https://github.com/meimei1235/vue-music')
 			}
 		},
 		computed: {

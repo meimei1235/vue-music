@@ -1,6 +1,6 @@
 <template>
 	<div class="findsheet">
-		<a href="https://github.com/IFmiss/vue-music" target="_black">hihihihi: https://github.com/IFmiss/vue-music</a>
+		<p>敬请期待.....</p>
 	</div>
 </template>
 <script>
@@ -21,7 +21,4 @@
 		z-index:11
 		background:#fff
 		-webkit-overflow-scrolling:touch
-		a
-			color:#666
-			text-decoration:none
 </style>

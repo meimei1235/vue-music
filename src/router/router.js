@@ -6,6 +6,8 @@ import FindMusic from './../components/findmusic/findmusic'
 import Community from './../components/community/community'
 import Findrecommend from './../components/findrecommend/findrecommend'
 import Findsheet from './../components/findsheet/findsheet'
+import Rank from './../components/rank/rank'
+import Broadcast from './../components/broadcast/broadcast'
 
 Vue.use(VueRouter)
 
@@ -27,19 +29,28 @@ export default new VueRouter({
       component: FindMusic,
       //  菜单的router
       children: [{
-        // 第二页的第一个
         path: '',
         redirect: '/findmusic/findrecommend'
       },
       {
-        // findmusic   第一页
+        // 个性推荐
         path: '/findmusic/findrecommend',
         component: Findrecommend
       },
       {
-        // findmusic   第一页
+        // 歌单
         path: '/findmusic/findsheet',
         component: Findsheet
+      },
+      {
+        // 主播电台
+        path: '/findmusic/broadcast',
+        component: Broadcast
+      },
+      {
+        // 排行榜
+        path: '/findmusic/rank',
+        component: Rank
       }]
     },
     {

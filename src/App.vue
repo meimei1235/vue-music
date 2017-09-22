@@ -1,11 +1,9 @@
-<!-- 未曾遗忘的青春 -->
-<!-- 项目地址: https://github.com/IFmiss/vue-cloud-music -->
 
 <template>
   <div id="app">
     <audio id="myaudio" ref="audio" @timeupdate="musicTimeUpdate" @canplay="musicCanPlay" @playing="musicOnPlaying" @ended="musicEnded" @waiting="musicOnWaiting" @pause="musicOnPause" @loadstart="loadStart"></audio>
     <!-- 头部header -->
-    <v-header :index="2"></v-header>
+    <v-header :index="4"></v-header>
     <!-- 侧边栏列表 -->
     <side-bar :info="info"></side-bar>
     <!-- 底部显示的菜单列表 -->
